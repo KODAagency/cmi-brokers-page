@@ -90,32 +90,96 @@ textarea {
 
 
 header {
-	border-bottom: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
 }
 
-h1 {
+.prices-table {
+  width: 100%;
 }
 
+.prices-table.is-hidden tbody {
+  /* display: none */
+}
+
+/*
+.prices-table.is-hidden:after {
+  display: block;
+  height: 20px;
+  width: 100%;
+  background: #f00;
+  content: 'test';
+}
+*/
+
+h3 {
+  font-size: 20px;
+  color: #081D58
+}
+
+.prices-table td,
+.prices-table th {
+  padding: 5px;
+}
+
+.ounces-label {
+  float: right;
+}
+
+tr.item-row {
+  background: #FAFABC
+}
+
+tr.markup-row {
+  background: #89F5F5
+}
+
+tr.percent-row {
+  background: #BEEDBB
+}
 
 section.spot-prices {
-	background: #f1f1f1;
- 	border-bottom: 1px solid #c0c0c0;
+  background: #f1f1f1
+  border-bottom: 1px solid #c0c0c0;
+  padding: 20px 0;
 }
 
 dl.spot-price-list {
-	margin-top: 0;
+  margin-top: 0;
+}
+
+nav {
+  border: 1px solid #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 20px;
 }
 
 
+header {
+  padding: 20px 0;
+}
 
+header img {
+  float: left;
+}
 
+header h1 {
+  float: right;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+  line-height: 45px;
+  color: #081D58;
+}
 
-
-
-
-
-
-
+.spot-date {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 15px;
+  float: right;
+}
 
 
 /* ==========================================================================
