@@ -5,8 +5,8 @@ $(function () {
       spotPlt = 0,
       spotPld = 0;
 
-  $.getJSON('http://kodawork.com/cmi/broker/proxy.php', function (resp) {
-  // $.getJSON('proxy.php', function (resp) {
+  // $.getJSON('http://kodawork.com/cmi/broker/proxy.php', function (resp) {
+  $.getJSON('proxy.php', function (resp) {
     var timestamp = resp[0].Spot[0].data.timeStamp;
 
     eval('var today = new ' + timestamp.substr(1, timestamp.length - 2));
@@ -56,10 +56,10 @@ $(function () {
 
         if (product.RetailTiers) {
         // _____ Loop through retail teirs
-          for (var i = 0; i < 6; i++) {
-            var tier = product.RetailTiers[i];
+          for (var i = 5; i >= 0; i--) {
+            console.log(product.RetailTiers);
 
-            console.log(fraction);
+            var tier = product.RetailTiers[i];
 
             if (tier) {
               var markup = tier.Ask - (spotGld * fraction);
