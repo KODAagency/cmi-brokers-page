@@ -19,7 +19,7 @@
       <header>
         <div class="container">
           <img src="http://www.cmi-gold-silver.com/content/themes/cmi_new/img/cmi-logo.svg" width="150" height="45">
-          <h1>Broker Page: Gold</h1>
+          <h1>Broker Page: Silver</h1>
         </div>
       </header>
 
@@ -51,114 +51,103 @@
 
         <nav>
           <div class="container">
-            <a href="#fractional-gold">Fractional Gold</a>
-            <a href="#gold-bullion-bars">Gold Bullion Bars</a>
-            <a href="#gold-bullion-coins">Gold Bullion Coins</a>
-            <a href="#gold-collectables">Gold Collectables</a>
-            <a href="#gold-numismatic">Gold Numismatic</a>
-            <a href="#gold-other-products">Gold Other Products</a>
+            <a href="#silver-bullion-coins">Silver Bullion Coins</a>
+            <a href="#silver-collectables">Silver Collectables</a>
+            <a href="#silver-dollars">Silver Dollars</a>
+            <a href="#silver-numismatic">Silver Numismatic</a>
+            <a href="#silver-bullion-bars">Silver Bullion Bars</a>
+            <a href="#ninety-percent-silver-coins">90% Silver Coins</a>
           </div>
         </nav>
       </div>
 
       <section>
         <div class="container">
-          <h3 id="fractional-gold">Fractional Gold</h3>
-          <table class="prices-table is-hidden" data-family="Fractional Gold">
+          <h3 id="silver-bullion-coins">Silver Bullion Coins</h3>
+          <table class="prices-table is-hidden" data-family="Silver Bullion Coins">
             <thead>
               <tr>
                 <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>5</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
                 <th>100</th>
+                <th>300</th>
                 <th>500</th>
+                <th>800</th>
+                <th>1500</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
 
-          <h3 id="gold-bullion-bars">Gold Bullion Bars</h3>
-          <table class="prices-table is-hidden" data-family="Gold Bullion Bars">
+          <h3 id="silver-collectables">Silver Collectables</h3>
+          <table class="prices-table is-hidden" data-family="Silver Collectables">
             <thead>
               <tr>
                 <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>3</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
                 <th>100</th>
+                <th>300</th>
                 <th>500</th>
+                <th>800</th>
+                <th>1500</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
           
-          <h3 id="gold-bullion-coins">Gold Bullion Coins</h3>
-          <table class="prices-table is-hidden" data-family="Gold Bullion Coins">
+          <h3 id="silver-dollars">Silver Dollars</h3>
+          <table class="prices-table is-hidden" data-family="Silver Dollars">
             <thead>
               <tr>
                 <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>3</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
                 <th>100</th>
+                <th>300</th>
                 <th>500</th>
+                <th>800</th>
+                <th>1500</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
 
-          <h3 id="gold-collectables">Gold Collectables</h3>
-          <table class="prices-table is-hidden" data-family="Gold Collectables">
+          <h3 id="silver-numismatic">Silver Numismatic</h3>
+          <table class="prices-table is-hidden" data-family="Silver Numismatic">
             <thead>
               <tr>
                 <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>3</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
                 <th>100</th>
+                <th>300</th>
                 <th>500</th>
+                <th>800</th>
+                <th>1500</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
 
-          <h3 id="gold-numismatic">Gold Numismatic</h3>
-          <table class="prices-table is-hidden" data-family="Gold Numismatic">
+          <h3 id="silver-bullion-bars">Silver Bullion Bars</h3>
+          <table class="prices-table is-hidden" data-family="Silver Bullion Bars">
             <thead>
               <tr>
                 <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>3</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
                 <th>100</th>
+                <th>300</th>
                 <th>500</th>
+                <th>800</th>
+                <th>1500</th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
 
-          <h3 id="gold-other-products">Gold Other Products</h3>
-          <table class="prices-table is-hidden" data-family="Gold Other Products">
+          <h3 id="ninety-percent-silver-coins">90% Silver Coins</h3>
+          <table class="prices-table is-hidden" data-family="90% Silver Coins">
             <thead>
               <tr>
-                <th>Product <span class="ounces-label">ounces:</span></th>
-                <th>3</th>
-                <th>10</th>
-                <th>20</th>
-                <th>50</th>
-                <th>100</th>
-                <th>500</th>
+                <th>Product</th>
+                <th></th>
               </tr>
             </thead>
             <tbody></tbody>
           </table>
-
         </div>
       </section>
 
